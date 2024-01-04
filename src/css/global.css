@@ -1,0 +1,12 @@
+.button-invisible-bg {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.zoom-on-hover {
+  transition: transform 0.5s ease, background-color 0.5s ease; /* Added background-color transition */
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.2);
+}
