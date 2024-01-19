@@ -37,7 +37,7 @@
   </head>
   <body class="bg-dark text-light">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://jc4balos.github.io"
             ><span>Jc Abalos</span>&nbsp<i class="fas fa-code"></i
@@ -55,19 +55,23 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item zoom-on-hover">
-                <a class="nav-link active" href="#home">Home</a>
+                <a id="home-nav" class="nav-link active" href="#home">Home</a>
               </li>
               <li class="nav-item zoom-on-hover">
-                <a class="nav-link" href="#socials">Socials</a>
+                <a id="socials-nav" class="nav-link" href="#socials">Socials</a>
               </li>
               <li class="nav-item zoom-on-hover">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a id="skills-nav" class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item zoom-on-hover">
-                <a class="nav-link" href="#credentials">Credentials</a>
+                <a id="credentials-nav" class="nav-link" href="#credentials"
+                  >Credentials</a
+                >
               </li>
               <li class="nav-item zoom-on-hover">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a id="projects-nav" class="nav-link" href="#projects"
+                  >Projects</a
+                >
               </li>
             </ul>
           </div>
@@ -75,7 +79,7 @@
       </nav>
     </header>
     <main class="p-3 p-lg-5">
-      <section class="mt-3 row d-flex" id="home">
+      <section class="mt-5 row d-flex" id="home">
         <div
           class="col-lg-6 pb-5 justify-content-center align-items-center d-flex"
           style="
@@ -113,10 +117,10 @@
         <div class="row mt-5">
           <div
             class="col-6 border-end justify-content-end d-flex"
-            style="height: 200px">
-            <div class="zoom-on-hover" data-aos="fade-right">
+            style="height: 100px">
+            <div data-aos="fade-right">
               <div
-                class="rounded-circle border d-flex justify-content-center align-items-center"
+                class="zoom-on-hover rounded-circle border d-flex justify-content-center align-items-center"
                 style="
                   position: absolute;
                   height: 70px;
@@ -138,10 +142,10 @@
           </div>
           <div
             class="col-6 border-start justify-content-start align-items-end d-flex"
-            style="height: 200px">
-            <div class="zoom-on-hover" data-aos="fade-right">
+            style="height: 100px">
+            <div data-aos="fade-right">
               <div
-                class="rounded-circle border d-flex justify-content-center align-items-center"
+                class="zoom-on-hover rounded-circle border d-flex justify-content-center align-items-center"
                 style="
                   position: absolute;
                   height: 70px;
@@ -163,10 +167,10 @@
           </div>
           <div
             class="col-6 border-end justify-content-end align-items-end d-flex"
-            style="height: 200px">
-            <div class="zoom-on-hover" data-aos="fade-right">
+            style="height: 100px">
+            <div data-aos="fade-right">
               <div
-                class="rounded-circle border d-flex justify-content-center align-items-center"
+                class="zoom-on-hover rounded-circle border d-flex justify-content-center align-items-center"
                 style="
                   position: absolute;
                   height: 70px;
@@ -188,19 +192,19 @@
                   <i class="fab fa-instagram text-light display-6"></i>
                 </a>
               </div>
-              <span style="position: absolute; translate: 70% -35%"
+              <span style="position: absolute; translate: -160% -35%"
                 >@jc4balos_</span
               >
             </div>
           </div>
-          <div class="col-6 border-start" style="height: 200px"></div>
-          <div class="col-6 border-end" style="height: 200px"></div>
+          <div class="col-6 border-start" style="height: 100px"></div>
+          <div class="col-6 border-end" style="height: 100px"></div>
           <div
             class="col-6 border-start justify-content-start align-items-end d-flex"
-            style="height: 200px">
-            <div class="zoom-on-hover" data-aos="fade-right">
+            style="height: 100px">
+            <div data-aos="fade-right">
               <div
-                class="rounded-circle border d-flex justify-content-center align-items-center"
+                class="zoom-on-hover rounded-circle border d-flex justify-content-center align-items-center"
                 style="
                   position: absolute;
                   height: 70px;
@@ -222,7 +226,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-3" id="skills">
+      <section class="mt-5" id="skills">
         <h3 class="display-3" data-aos="zoom-in">Skills</h3>
         <div class="row">
           <div class="col-lg-3 p-3" data-aos="flip-up">
@@ -301,7 +305,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-3" id="credentials">
+      <section class="mt-5" id="credentials">
         <h3 class="display-3" data-aos="fade-down">
           Certificates and Credentials
         </h3>
@@ -319,7 +323,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-3" id="projects">
+      <section class="mt-5" id="projects">
         <h3 class="display-3" data-aos="fade-down">Projects</h3>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-down">
